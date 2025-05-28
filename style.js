@@ -1,3 +1,8 @@
+// ! Inicializando animação
+AOS.init({
+    once: true, // As animações só acontecem uma vez
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     var flkty = new Flickity('.carousel', {
         wrapAround: true,
@@ -6,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 const slider = document.querySelector('.js-slider');
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
+const prevButton = document.querySelector('.anterior');
+const nextButton = document.querySelector('.proximo');
 
 prevButton.addEventListener('click', () => {
     slider.scrollBy({ left: -slider.offsetWidth / 4 * 4, behavior: 'smooth' });
