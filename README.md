@@ -34,7 +34,13 @@ Este projeto é um clone visual do site da Petz, desenvolvido com foco em práti
 
 - 🧩 Adicionar funcionalidades dinâmicas com JavaScript.
 
+## Demonstração Projeto
+<div align="center">
+  <img src="./assets/readme/projeto_petz.gif" alt="Demonstração do projeto"/>
+</div>
 
-## Demonstração
-
+## Site da Petz 
+<div align="center">
+  <img src="./assets/readme/petz.gif" alt="Site da Petz"/>
+</div>
 
